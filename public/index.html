@@ -197,19 +197,15 @@ there in the future</p>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/app.js" type="module"></script>
   <script>
-
-
-jQuery(document).ready(function(){
-
- // alert("wow");
-  //  jQuery("header").addClass("fixed");
-  jQuery("#hamburger").click(function(){
+	jQuery(document).ready(function(){
+		// alert("wow");
+		//  jQuery("header").addClass("fixed");
+		jQuery("#hamburger").click(function(){
 		//alert("The paragraph was clicked.");
 		jQuery("header").toggleClass("fixed");
 	});
-
 
 });
 
